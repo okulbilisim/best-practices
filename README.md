@@ -39,6 +39,16 @@ The old adage "don't reinvent the wheel" doesn't apply when the wheel comes atta
 
 [Source](http://www.reddit.com/r/programming/comments/1bcebh/programming_best_practices/c9616mn)
 
+#### Don't expect a rewrite to do better than the original
+It's important to remember that when you start from scratch there is absolutely no reason to believe that you are
+going to do a better job than you did the first time. First of all, you probably don't even have the same
+programming team that worked on version one, so you don't actually have "more experience". You're just going to make
+most of the old mistakes again, and introduce some new problems that weren't in the original version.
+
+– Joel Spolsky
+
+[Source](http://www.joelonsoftware.com/articles/fog0000000069.html)
+
 ## Stop Writing Classes
 
 The signature of "this shouldn't be a class" is when the class has two methods, and one of them is the constructor.
@@ -221,6 +231,9 @@ the normal case for software projects is that tasks are rarely completed exactly
 Nobody likes to look stupid. If you’re a professional and someone puts you on the spot to answer “how long will this take?” it’s only human to want to provide an answer. Whether you call it professional pride or ego, it’s a powerful driver.
 Good IT workers really don’t like saying “I don’t know.” If they say it, they probably mean it. So stop pushing for a definitive answer when one doesn’t exist.It’s perfectly reasonable to want some sort of plan up front. I’m actually one of those funny types who believe up front planning is a necessity. So long as everyone understands an estimate is just that: an estimate. You learn as you go along and discover more detail. So you revise the estimate accordingly.
 
+[![The mess we're in](https://cloud.githubusercontent.com/assets/43438/4344401/0ddd5fc8-408f-11e4-8887-b0bfbce91dc7.png)](https://www.youtube.com/watch?v=lKXe3HUG2l4)
+
+– Joe Armstrong, author Erlang
 
 ##Your architecture should resemble your domain
 
